@@ -61,7 +61,7 @@ function Game() {
                     ])
                     .then(data => {
                         if (data.answer === true) {
-                            // clear();
+
                             var newGame = new Game();
                             newGame.start();
                         }
@@ -85,7 +85,7 @@ function Game() {
                     ])
                     .then(data => {
                         if (data.answer === true) {
-                            // clear();
+
                             var newGame = new Game();
                             newGame.start();
                         }
@@ -97,7 +97,7 @@ function Game() {
         }
         this.guesses.push(letter);
         if (this.statusCheck === true) {
-            // clear();
+
             this.start();
         }
     };

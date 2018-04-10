@@ -28,7 +28,7 @@ Letter.prototype.printStats = function () {
         return this.word;
     }
 }
-
+//test
 var test = new Letter("a", true);
 console.log(test.printStats().rainbow);
 //export the constructor
